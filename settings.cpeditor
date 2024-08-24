@@ -1,0 +1,210 @@
+[General]
+answer_file_save_path=./${basename}_${1-index}.ans
+ask_for_loading_external_changes=true
+auto_complete_parentheses=true
+auto_indent=true
+auto_load_external_changes_if_no_unsaved_modification=true
+auto_remove_parentheses=true
+auto_save=true
+auto_save_interval=100
+auto_save_interval_type=After the last modification
+auto_uncheck_accepted_testcases=false
+beta=false
+check_on_testcases_with_empty_output=false
+check_update=true
+cursor_width=1
+custom_application_font=@Variant(\0\0\0@\0\0\0\x14\0S\0\x61\0n\0s\0 \0S\0\x65\0r\0i\0\x66@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+default_file_paths_for_problem_urls=@Invalid()
+default_language=C++
+default_time_limit=5000
+detached_run_terminal_arguments=-e
+detached_run_terminal_program=qterminal
+display_eoln_in_diff=false
+display_stopwatch=false
+display_test_case_length_limit=500000
+editor_font=@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0o\0s\0p\0\x61\0\x63\0\x65@4\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+editor_theme=Oblivion
+error_message_color=red
+extra_bottom_margin=false
+file_problem_binding=/home/muhammad/\x414\x43e\x43a\x443\x43c\x435\x43d\x442\x44b/C++/C.cpp, https://codeforces.com/problemset/problem/1775/C, /home/muhammad/\x414\x43e\x43a\x443\x43c\x435\x43d\x442\x44b/C++/main.cpp, https://codeforces.com/contest/1956/problem/A, /home/muhammadjon/Documents/cpp/main.cpp, https://codeforces.com/problemset/problem/1511/D
+first_time_user=false
+force_close=false
+format_on_auto_save=false
+format_on_manual_save=false
+full_screen_dialog_shown=true
+geometry=@Rect(602 203 800 600)
+hide_stopwatch_result=true
+highlight_error_line=false
+html_diff_viewer_length_limit=50000
+input_file_save_path=./${basename}_${1-index}.in
+locale=\x420\x443\x441\x441\x43a\x438\x439
+maximized_window=true
+message_length_limit=20000
+message_logger_font=@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0o\0s\0p\0\x61\0\x63\0\x65@&\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+number_of_problems_in_contest=5
+opacity=100
+open_file_length_limit=20000
+open_old_file_for_old_problem_url=false
+output_display_length_limit=50000
+output_length_limit=500000
+promotion_dialog_shown=true
+recent_files=/home/muhammadjon/Documents/cpp/main.cpp, /home/muhammadjon/Templates/template-cpp.cpp, /home/muhammad/Apps/Cf tool/main.cpp, /home/muhammad/a.cpp, /home/muhammad/CPH Default C++ CODE/main.cpp, /home/muhammad/\x414\x43e\x43a\x443\x43c\x435\x43d\x442\x44b/C++/main.cpp, /home/muhammad/\x414\x43e\x43a\x443\x43c\x435\x43d\x442\x44b/C++/2.cpp, /home/muhammad/\x420\x430\x431\x43e\x447\x438\x439 \x441\x442\x43e\x43b/.directory, /home/muhammad/\x414\x43e\x43a\x443\x43c\x435\x43d\x442\x44b/C++/C.cpp, /home/muhammad/\x414\x43e\x43a\x443\x43c\x435\x43d\x442\x44b/C++/E_\x420\x443\x434\x43e\x43b\x44c\x444_\x438_k_\x43c\x43e\x441\x442\x43e\x432.cpp
+replace_tabs=false
+restore_old_problem_url=false
+right_splitter_size=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1\x88\0\0\x1\xfa\x1\xff\xff\xff\xff\x1\0\0\0\x2\0)
+run_on_empty_testcase=false
+save_faster=true
+save_file_on_compilation=true
+save_file_on_execution=false
+save_tests=false
+show_compile_and_run_only=true
+show_only_monospaced_font=true
+splitter_size=@ByteArray()
+tab_jump_out_parentheses=false
+tab_width=4
+test_case_maximum_height=300
+test_cases_font=@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0o\0s\0p\0\x61\0\x63\0\x65@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+testcases_matching_rules=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0(\0.\0*\0)\0\\\0.\0i\0n\0\0\0\f\0\\\0\x31\0.\0\x61\0n\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0(\0.\0*\0)\0\\\0.\0i\0n\0\0\0\f\0\\\0\x31\0.\0o\0u\0t)
+toggle_stopwatch_on_tab_switch=false
+total_usage_time=237694
+ui_style=Dark Fusion
+use_custom_application_font=false
+view_mode=split
+warn_message_color=green
+wrap_text=false
+
+[Language%20Config]
+C%2B%2B\snippet\Binary%20Pow="ll binpow(ll a, ll b, ll mod) {\n    if (b == 0) return 1;\n    else if (b % 2 != 0) return (a%mod * binpow(a, b-1, mod)%mod)%mod;\n    ll tmp = binpow(a, b/2, mod); return (tmp%mod*tmp%mod)%mod;\n}"
+C%2B%2B\snippet\Div%20By%20Mod="ll div_by_mod(ll a, ll b, ll mod) {\n    return (a % mod) * (binpow(b, mod-2, mod)) % mod;\n}"
+C%2B%2B\snippet\HELP%20Erase="// str --  a.erase(index nachala , kolichesvo simvolov);\n// set -- a.erase(iterator);\n// deque , vector -- a.erase(a.begin + index nachala , a.begin + index konca + 1);\n"
+C%2B%2B\snippet\HELP%20Ordered%20Set="// order_of_key(k) : \x432\x43e\x437\x432\x440\x430\x449\x430\x435\x442 \x43a\x43e\x43b\x438\x447\x435\x441\x442\x432\x43e \x44d\x43b\x435\x43c\x435\x43d\x442\x43e\x432, \x43a\x43e\x442\x43e\x440\x44b\x435 \x441\x442\x440\x43e\x433\x43e \x43c\x435\x43d\x44c\x448\x435 \x43d\x430\x448\x435\x433\x43e \x44d\x43b\x435\x43c\x435\x43d\x442\x430 k \x437\x430 \x432\x440\x435\x43c\x44f O(logn).\n// find_by_order(k) : \x432\x43e\x437\x432\x440\x430\x449\x430\x435\x442 \x438\x442\x435\x440\x430\x442\x43e\x440 \x43a k-\x43c\x443 \x44d\x43b\x435\x43c\x435\x43d\x442\x443 (\x441\x447\x438\x442\x430\x44f \x43e\x442 \x43d\x443\x43b\x44f) \x432 \x43d\x430\x431\x43e\x440\x435 \x437\x430 \x432\x440\x435\x43c\x44f O(logn)."
+C%2B%2B\snippet\Ordered%20Set="#include <ext/pb_ds/assoc_container.hpp>\n#include <ext/pb_ds/tree_policy.hpp>\nusing namespace __gnu_pbds;\ntypedef tree<long long, null_type, less<long long>, rb_tree_tag, tree_order_statistics_node_update> ordered_set;"
+C%2B%2B\snippet\PI="const long double PI = 3.1415926535897932384626433832795;"
+C%2B%2B\snippet\Pragma%20opt="#pragma GCC optimize(\"O3,unroll-loops\")\n#pragma GCC target(.\"avx2,bmi,bmi2,lzcnt,popcnt\")\n#pragma GCC optimize(\"Ofast\")"
+C%2B%2B\snippet\Segment%20tree%20for%20min%20and%20max="struct segment_tree{\n    struct segment{\n        ll left = 0, right = 0, mn = 1e18, mx = -1e18;\n    };\n\n    vector <segment> tree;\n\n    void build(ll n, ll arr[]) {\n        ll n2 = n;\n        n = powl(2, ceil(log(n) / log(2)));\n        tree.resize(2*n);\n\n        for (ll i=n; i<2*n; i++) {\n            tree[i].left = i-n+1;\n            tree[i].right = i-n+1;\n            if (i-n+1 <= n2) {\n                tree[i].mn = arr[i-n+1];\n                tree[i].mx = arr[i-n+1];\n            }\n            else {\n                tree[i].mn = 1e18;\n                tree[i].mx = -1e18;\n            }\n        }\n\n        for (ll i=n-1; i>=1; i--) {\n            tree[i].left = tree[i*2].left;\n            tree[i].right = tree[i*2+1].right;\n            tree[i].mn = min(tree[i*2].mn, tree[i*2+1].mn);\n            tree[i].mx = max(tree[i*2].mx, tree[i*2+1].mx);\n        }\n    }\n\n    void update(ll change_value, ll need_to_change, ll location = 1) {\n        if (tree[location].left > need_to_change || tree[location].right < need_to_change) {\n            return;\n        }\n        else if (tree[location].left == need_to_change && tree[location].right == need_to_change) {\n            tree[location].mn = change_value;\n            tree[location].mx = change_value;\n            return;\n        }\n        else {\n            update(change_value, need_to_change, location*2);\n            update(change_value, need_to_change, location*2+1);\n        }\n\n        tree[location].mn = min(tree[location*2].mn, tree[location*2+1].mn);\n        tree[location].mx = max(tree[location*2].mx, tree[location*2+1].mx);\n    }\n\n    ll find_min(ll left_bord, ll right_bord, ll location = 1) {\n        if (tree[location].left > right_bord || tree[location].right < left_bord) {\n            return 1e18;\n        }\n        else if (tree[location].left >= left_bord && tree[location].right <= right_bord) {\n            return tree[location].mn;\n        }\n        else {\n            ll min_left = find_min(left_bord, right_bord, location*2);\n            ll min_rigt = find_min(left_bord, right_bord, location*2+1);\n\n            return min(min_left, min_rigt);\n        }\n    }\n\n    ll find_max(ll left_bord, ll right_bord, ll location = 1) {\n        if (tree[location].left > right_bord || tree[location].right < left_bord) {\n            return -1e18;\n        }\n        else if (tree[location].left >= left_bord && tree[location].right <= right_bord) {\n            return tree[location].mx;\n        }\n        else {\n            ll max_left = find_max(left_bord, right_bord, location*2);\n            ll max_rigt = find_max(left_bord, right_bord, location*2+1);\n\n            return max(max_left, max_rigt);\n        }\n    }\n};"
+C%2B%2B\snippet\Segment%20tree%20for%20sum="struct segment_tree{\n    struct segment{\n        ll left = 0, right = 0, sum = 0;\n    };\n\n    vector <segment> tree;\n\n    void build(ll n, ll arr[/*Write the array length*/]) {\n        ll n2 = n;\n        n = powl(2, ceil(log(n) / log(2)));\n        tree.resize(2*n);\n\n        for (ll i=n; i<2*n; i++) {\n            tree[i].left = i-n+1;\n            tree[i].right = i-n+1;\n            if (i-n+1 <= n2) {\n                tree[i].sum = arr[i-n+1];\n            }\n            else {\n                tree[i].sum = 0;\n            }\n        }\n\n        for (ll i=n-1; i>=1; i--) {\n            tree[i].left = tree[i*2].left;\n            tree[i].right = tree[i*2+1].right;\n            tree[i].sum = tree[i*2].sum + tree[i*2+1].sum;\n        }\n    }\n\n    void update(ll change_value, ll need_to_change, ll location = 1) {\n        if (tree[location].left > need_to_change || tree[location].right < need_to_change) {\n            return;\n        }\n        else if (tree[location].left == need_to_change && tree[location].right == need_to_change) {\n            tree[location].sum = change_value;\n            return;\n        }\n        else {\n            update(change_value, need_to_change, location*2);\n            update(change_value, need_to_change, location*2+1);\n        }\n\n        tree[location].sum = tree[location*2].sum + tree[location*2+1].sum;\n    }\n\n    ll find_sum(ll left_bord, ll right_bord, ll location = 1) {\n        if (tree[location].left > right_bord || tree[location].right < left_bord) {\n            return 0;\n        }\n        else if (tree[location].left >= left_bord && tree[location].right <= right_bord) {\n            return tree[location].sum;\n        }\n        else {\n            ll sum_left = find_sum(left_bord, right_bord, location*2);\n            ll sum_rigt = find_sum(left_bord, right_bord, location*2+1);\n\n            return sum_left + sum_rigt;\n        }\n    }\n};"
+C%2B%2B\snippet\a-temp="#include <bits/stdc++.h>\n\nusing ll = long long;\nusing ld = long double;\n#define str string\n\n#define all(v)  v.begin(), v.end()\n#define fi      first\n#define se      second\n#define pb      push_back\n#define ent     cout << \"\\n\";\n#define sz(v)   ll(v.size())\n\nusing namespace std;\n\nconst long long MOD = 1e9+7, inf = 1e18;\n\ntemplate<typename InStream, typename T>\nInStream& operator>> (InStream& in, vector<T>& v)\n{\n\tfor (auto& tmp : v) {\n\t\tcin >> tmp;\n\t}\n\treturn in;\n}\ntemplate<typename OutStream, typename T>\nOutStream& operator<< (OutStream& out, const vector<T>& v)\n{\n\tfor (auto const& tmp : v) {\n\t\tcout << tmp << ' ';\n\t}\n\treturn out;\n}\n\ntemplate<typename OutStream, typename T1, typename T2>\nOutStream& operator<< (OutStream& out, const pair<T1, T2>& p)\n{\n\tcout << p.first << ' ' << p.second;\n\treturn out;\n}\n\nvoid run() {\n\t\n}\n\nint32_t main() {\n\t#ifndef LOCAL\n\t\t// freopen(\"input.txt\",\"r\",stdin);\n\t\t// freopen(\"output.txt\",\"w\",stdout);\n\t#endif\n\tios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);\n\n\tll ttest=1;\n\tcin >> ttest;\n\n\tfor (ll test_number=1; test_number<=ttest; test_number++) {\n\t\trun();\n\t}\n\n\treturn 0;\n}\n"
+
+[cf]
+path=/home/muhammadjon/Apps/Cf tool/cf
+show_toast_messages=true
+
+[clang_format]
+arguments=
+program=clang-format
+style=BasedOnStyle: Microsoft
+
+[competitive_companion]
+connection_port=10045
+enable=true
+head_comments=Author: 989\nCreated: ${time}
+head_comments_powered_by_cp_editor=false
+head_comments_time_format=dd.MM.yyyy HH:mm:ss
+open_new_tab=false
+set_time_limit_for_tab=true
+
+[cpp]
+compile_command=c++ -DLOCAL
+compiler_output_codec=UTF-8
+output_path=${tmpdir}/${basename}
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+run_arguments=
+template_cursor_position_offset_characters=9
+template_cursor_position_offset_type=start
+template_cursor_position_regex=run\\(\\)
+template_path=/home/muhammadjon/Templates/template-cpp.cpp
+
+[default_path]
+action\add_pairs_of_test_cases\changes=testcase
+action\add_pairs_of_test_cases\uses=${testcase}
+action\custom_checker\changes=checker
+action\custom_checker\uses=${checker}
+action\export_and_import_settings\changes=settings
+action\export_and_import_settings\uses=${settings}
+action\export_and_load_session\changes=session
+action\export_and_load_session\uses=${session}
+action\extract_and_load_snippets\changes=snippets
+action\extract_and_load_snippets\uses=${snippets}
+action\load_single_test_case\changes=testcase
+action\load_single_test_case\uses=${testcase}
+action\open_contest\changes="contest, file, testcase, checker"
+action\open_contest\uses=${contest}
+action\open_file\changes="file, testcase, checker"
+action\open_file\uses=${file}
+action\save_file\changes="file, testcase, checker"
+action\save_file\uses=${file}
+action\save_test_case_to_a_file\changes=testcase
+action\save_test_case_to_a_file\uses=${testcase}
+names_and_paths=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0r\0\0\0\x36\0/\0h\0o\0m\0\x65\0/\0m\0u\0h\0\x61\0m\0m\0\x61\0\x64\0j\0o\0n\0/\0T\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\b\0\x66\0i\0l\0\x65\0\0\0\x36\0/\0h\0o\0m\0\x65\0/\0m\0u\0h\0\x61\0m\0m\0\x61\0\x64\0j\0o\0n\0/\0T\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\0), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0t\0\x65\0s\0t\0\x63\0\x61\0s\0\x65\0\0\0\x36\0/\0h\0o\0m\0\x65\0/\0m\0u\0h\0\x61\0m\0m\0\x61\0\x64\0j\0o\0n\0/\0T\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s)
+
+[hot_exit]
+auto_save=false
+auto_save_interval=20000
+enable=true
+
+[hotkey]
+change_view_mode=
+compile=
+compile_run=F9
+format=
+kill=
+run=
+snippets=Ctrl+J
+
+[java]
+class_name=Main
+compile_command=javac
+compiler_output_codec=UTF-8
+output_path=${tmpdir}
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+run_arguments=
+run_command=java
+template_cursor_position_offset_characters=0
+template_cursor_position_offset_type=end
+template_cursor_position_regex=
+template_path=
+
+[lsp]
+args_cpp=
+args_java=
+args_python=-m pyls
+delay_cpp=500
+delay_java=2000
+delay_python=2000
+path_cpp=clangd
+path_java=
+path_python=python
+use_autocomplete_cpp=false
+use_autocomplete_java=false
+use_autocomplete_python=false
+use_linting_cpp=true
+use_linting_java=false
+use_linting_python=false
+
+[proxy]
+enabled=true
+host_name=127.0.0.1
+password=
+port=1080
+type=System
+user=
+
+[python]
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+run_arguments=
+run_command=python
+template_cursor_position_offset_characters=0
+template_cursor_position_offset_type=end
+template_cursor_position_regex=
+template_path=
+
+[wakatime]
+api_key=
+enable=false
+path=wakatime
+proxy=false
+
+[yapf]
+arguments=-m yapf
+program=python
+style="[style]\nbased_on_style = pep8"
